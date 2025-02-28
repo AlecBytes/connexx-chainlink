@@ -1,32 +1,45 @@
-# ChainLink README
+# 🚴 **ChainLink – Find & Ride with Cyclists Near You**  
 
-Production site: https://chainlink.connexx-ai.com
+🔗 **Production Site:** [ChainLink Live](https://chainlink.connexx-ai.com)  
+🛠 **Development Site:** [ChainLink Dev](https://dev.chainlink.connexx-ai.com)  
 
-Dev site: https://dev.chainlink.connexx-ai.com
+---
 
-## Tech Stack
+## 🌍 **About ChainLink**  
 
-- React.js client
-- Node.js server on AWS EC2
-- Apollo Graphql
-- MongoDB
+**ChainLink** is a platform that helps cyclists connect, **discover group rides**, and **match with other riders** based on their skills, preferences, and location.  
 
-## Pre-Requirements 
-- Install Javascript
-- Install Typescript 
+I (Alec) contributed as part of a **4-person development team** working to bring the prototype to **production readiness** for use by the **University of Florida Cycling Club**. 
 
-## Dev Environment
+## 🔥 **New Features & Enhancements**  
 
-`npm install` in both client and server directories.
+🔹 **Feature Flags** → Toggle experimental features on/off  
+🔹 **Friend System** → Send, accept, and manage friendships  
+🔹 **Ride Sharing** → Discover and join group rides  
+🔹 **Password Reset** → Secure account recovery  
+🔹 **Private Profiles** → Control who sees your data 
+🔹 **Profile Pictures** → Personalize your profile  
 
-### Start server
+---
 
-From /ChainLink-Server
+## 🏗 **Tech Stack**  
 
-`npm run start`
+### 🎨 **Frontend:**  
+- **React.js** – User interface framework  
+- **Styled Components** – UI styling  
 
-### Start client
+### 🛢 **Backend:**  
+- **Node.js + Express.js** – Server-side API  
+- **Apollo GraphQL** – Efficient data fetching  
+- **MongoDB Atlas** – Cloud-hosted NoSQL database  
 
-From /ChainLink-Client
+### 🚀 **Deployment:**  
+- ☁ **AWS EC2** – Server hosting  
+- ☁ **MongoDB Cloud** – Database hosting  
 
-`npm run dev`
+---
+
+## 📜 License
+
+This project does not currently have a public license. If you are interested in using or contributing, please reach out for permissions.
+
